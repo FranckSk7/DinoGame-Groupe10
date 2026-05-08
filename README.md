@@ -337,9 +337,9 @@ git push origin feature/MA-PARTIE
 
 |#|Membre        |Partie             |Branche                       |Statut |
 |-|--------------|-------------------|------------------------------|-------|
-|1|Chef technique|Structure + main.ts|`feature/structure-principale`|⬜     |
+|1|Chef technique|Structure + main.ts|`feature/structure-principale`|🔁️     |
 |2|Membre 2      |Dinosaure          |`feature/dinosaure`           |✅️     |
-|3|Membre 3      |Obstacles          |`feature/obstacles`           |⬜     |
+|3|Membre 3      |Obstacles          |`feature/obstacles`           |🔁️     |
 |4|Membre 4      |Score              |`feature/score`               |⬜     |
 |5|Membre 5      |Fond jour/nuit     |`feature/fond-jour-nuit`      |⬜     |
 |6|Membre 6      |Pluie météo        |`feature/pluie-meteo`         |⬜     |
