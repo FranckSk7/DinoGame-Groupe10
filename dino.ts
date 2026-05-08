@@ -234,22 +234,3 @@ export class Dino {
     }
   }
 }
-
-// ca la c'est ce que tu vas ajouter dans le main.ts pour l'integration
-
-
-/* import { Dino } from "./dino";
-
-const dino = new Dino(canvas);
-
-// Dans la boucle de jeu :
-dino.mettreAJour();
-dino.dessiner(ctx);
-
-// Pour détecter la collision avec un obstacle :
-if (dino.estEnCollision(obstacle.getHitbox())) {
-    dino.mourir();
-}
-
-// Pour relancer :
-dino.reinitialiser(); */
