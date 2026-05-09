@@ -339,12 +339,12 @@ git push origin feature/MA-PARTIE
 |-|--------------|-------------------|------------------------------|-------|
 |1|Chef technique|Structure + main.ts|`feature/structure-principale`|🔁️     |
 |2|Membre 2      |Dinosaure          |`feature/dinosaure`           |✅️     |
-|3|Membre 3      |Obstacles          |`feature/obstacles`           |🔁️     |
-|4|Membre 4      |Score              |`feature/score`               |⬜     |
-|5|Membre 5      |Fond jour/nuit     |`feature/fond-jour-nuit`      |⬜     |
-|6|Membre 6      |Pluie météo        |`feature/pluie-meteo`         |⬜     |
-|7|Membre 7      |Musique & sons     |`feature/musique-sons`        |⬜     |
-|8|Membre 8      |Images & assets    |`feature/assets-images`       |⬜     |
+|3|Membre 3      |Obstacles          |`feature/obstacles`           |✅️     |
+|4|Membre 4      |Score              |`feature/score`               |🔁️     |
+|5|Membre 5      |Fond jour/nuit     |`feature/fond-jour-nuit`      |🔁️     |
+|6|Membre 6      |Pluie météo        |`feature/pluie-meteo`         |🔁️     |
+|7|Membre 7      |Musique & sons     |`feature/musique-sons`        |✅️     |
+|8|Membre 8      |Images & assets    |`feature/assets-images`       |✅️     |
 
 
 > ✅️Terminé · 🔁️En cours · ◻️Pas commencé
