@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dino Game — Groupe 10</title>
+  <link rel="icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================================================
+       CONTENEUR PRINCIPAL DU JEU
+       =================================================== -->
+
+  <div id="jeu-conteneur">
+
+```
+<!-- Label jour/nuit — mis à jour par meteo.ts (Membre 5) -->
+<p id="modeLabel" class="mode-label"></p>
+
+<!-- Canvas — zone où le jeu est dessiné -->
+<canvas id="canvas-jeu"></canvas>
+
+<!-- Bouton mute — contrôlé par musique.ts (Membre 7) -->
+<button id="btn-mute" class="btn">Son : ON</button>
+
+<!-- ===================================================
+     ÉCRAN D'ACCUEIL — affiché au démarrage
+     =================================================== -->
+<div id="ecran-accueil" class="ecran">
+  <h1>Dino Game</h1>
+  <p>ICT4D L2 · Groupe 10 · UY1 · 2025-2026</p>
+  <p class="instruction">
+    Appuie sur <strong>Espace</strong> ou <strong>↑</strong> pour commencer
+  </p>
+  <p class="instruction-mobile">
+    Touche l'écran pour commencer
+  </p>
+</div>
+
+<!-- ===================================================
+     ÉCRAN GAME OVER — affiché quand le dino meurt
+     =================================================== -->
+<div id="ecran-gameover" class="ecran" style="display: none;">
+  <h2>Game Over</h2>
+  <p id="score-final">Score : 0</p>
+  <p id="meilleur-score-affichage">Meilleur : 0</p>
+  <p class="instruction">
+    Appuie sur <strong>Espace</strong> pour rejouer
+  </p>
+</div>
+```
+
+  </div>
+
+  <!-- ===================================================
+       SCRIPT PRINCIPAL
+       Le fichier main.ts est compilé en main.js
+       =================================================== -->
+
+  <script type="module" src="src/main.js"></script>
+
+</body>
+</html>
